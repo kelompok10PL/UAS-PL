@@ -76,7 +76,7 @@ namespace airline_reservation_system
             this.LogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.LogOut.FlatAppearance.BorderSize = 0;
             this.LogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LogOut.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOut.ForeColor = System.Drawing.Color.White;
             this.LogOut.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.LogOut.IconColor = System.Drawing.Color.White;
@@ -99,7 +99,7 @@ namespace airline_reservation_system
             this.ViewRes.Dock = System.Windows.Forms.DockStyle.Top;
             this.ViewRes.FlatAppearance.BorderSize = 0;
             this.ViewRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewRes.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewRes.ForeColor = System.Drawing.Color.White;
             this.ViewRes.IconChar = FontAwesome.Sharp.IconChar.SearchPlus;
             this.ViewRes.IconColor = System.Drawing.Color.White;
@@ -122,7 +122,7 @@ namespace airline_reservation_system
             this.CancelRes.Dock = System.Windows.Forms.DockStyle.Top;
             this.CancelRes.FlatAppearance.BorderSize = 0;
             this.CancelRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelRes.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelRes.ForeColor = System.Drawing.Color.White;
             this.CancelRes.IconChar = FontAwesome.Sharp.IconChar.Ban;
             this.CancelRes.IconColor = System.Drawing.Color.White;
@@ -145,7 +145,7 @@ namespace airline_reservation_system
             this.RescheduleRes.Dock = System.Windows.Forms.DockStyle.Top;
             this.RescheduleRes.FlatAppearance.BorderSize = 0;
             this.RescheduleRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RescheduleRes.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RescheduleRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RescheduleRes.ForeColor = System.Drawing.Color.White;
             this.RescheduleRes.IconChar = FontAwesome.Sharp.IconChar.Clock;
             this.RescheduleRes.IconColor = System.Drawing.Color.White;
@@ -168,7 +168,7 @@ namespace airline_reservation_system
             this.AddRes.Dock = System.Windows.Forms.DockStyle.Top;
             this.AddRes.FlatAppearance.BorderSize = 0;
             this.AddRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddRes.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddRes.ForeColor = System.Drawing.Color.White;
             this.AddRes.IconChar = FontAwesome.Sharp.IconChar.Edit;
             this.AddRes.IconColor = System.Drawing.Color.White;
@@ -200,13 +200,13 @@ namespace airline_reservation_system
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(63, 69);
+            this.label3.Location = new System.Drawing.Point(75, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 22);
+            this.label3.Size = new System.Drawing.Size(92, 15);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Sri Lankan Airlines";
+            this.label3.Text = "Merpati Airlines";
             // 
             // Logo
             // 
@@ -234,11 +234,11 @@ namespace airline_reservation_system
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Poppins Medium", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(76, 25);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(84, 37);
+            this.lblTitle.Size = new System.Drawing.Size(72, 25);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "Home";
             // 
@@ -280,13 +280,13 @@ namespace airline_reservation_system
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(246, 296);
+            this.label4.Location = new System.Drawing.Point(257, 296);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 22);
+            this.label4.Size = new System.Drawing.Size(92, 15);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Sri Lankan Airlines";
+            this.label4.Text = "Merpati Airlines";
             // 
             // pictureBox1
             // 
@@ -303,13 +303,14 @@ namespace airline_reservation_system
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Medium", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(95, 101);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(415, 37);
+            this.label1.Size = new System.Drawing.Size(378, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hi Admin, Welcome To Dashboard!";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // MainMenuScreen
             // 

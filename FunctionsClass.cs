@@ -6,7 +6,7 @@ namespace airline_reservation_system
 {
     class FunctionsClass
     {
-        public string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\sayur\Documents\GitHub\airline-reservation-system\Database\ReservationDb.mdf;Integrated Security=True;Connect Timeout=30";
+        public string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\kuliah\semester3\pemrograman lanjut\airline-reservation-system-main\airline-reservation-system-main\Database\ReservationDb.mdf;Integrated Security=True;Connect Timeout=30";
 
         public int checkSeatTaken(string rDate, string sNum)
         {

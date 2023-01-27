@@ -131,5 +131,10 @@ namespace airline_reservation_system
             new LoginScreen().Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

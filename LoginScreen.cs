@@ -19,7 +19,7 @@ namespace airline_reservation_system
                 new PopupMessage("Enter Credentials!").ShowDialog();
                 txtPassword.Text = "";
             }
-            else if (username == "admin" && password == "password")
+            else if (username == "paijo" && password == "password")
             {
                 new MainMenuScreen().Show();
                 new PopupMessage("Log In Success!").ShowDialog();
@@ -61,6 +61,16 @@ namespace airline_reservation_system
         {
             new NewUserScreen().Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
